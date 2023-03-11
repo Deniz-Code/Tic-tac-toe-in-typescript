@@ -1,0 +1,24 @@
+body {
+  background-color: beige;
+
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.board {
+  display: grid;
+  grid-template-rows: repeat(3, 10vmin);
+  grid-template-columns: repeat(3, 10vmin);
+  gap: 0vmin;
+}
+
+div {
+  border: 3px solid black;
+  font-size: 8vmin;
+  text-align: center;
+  vertical-align: middle;
+}
